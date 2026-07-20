@@ -4,7 +4,9 @@
   "description": "Extracts IOCs (hashes, domains, IPs, URLs) of any OpenCTI entity description and creates corresponding STIX observables.",
   "short_description": "Extract IOCs from entity descriptions and create STIX observables.",
   "logo": null,
-  "use_cases": ["Enrichment & Analysis"],
+  "use_cases": [
+    "Enrichment & Analysis"
+  ],
   "verified": false,
   "last_verified_date": null,
   "playbook_supported": true,
@@ -13,7 +15,7 @@
   "subscription_link": null,
   "source_code": "https://github.com/OpenCTI-Platform/connectors/tree/master/internal-enrichment/ioc-extractor",
   "manager_supported": true,
-  "container_version": "rolling",
+  "container_version": "7.260720.0",
   "container_image": "opencti/connector-ioc-extractor",
   "container_type": "INTERNAL_ENRICHMENT"
 }
