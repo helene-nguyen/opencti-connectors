@@ -1,7 +1,7 @@
 {
   "title": "Intel471 (Deprecated)",
   "slug": "intel471",
-  "description": "The Intel471 connector (deprecated \u2014 use Intel471 V2) ingests STIX 2.1 objects from Intel 471's Titan cybercrime intelligence platform into OpenCTI. It runs four configurable streams: malware indicators, YARA rules, IOCs (URLs, domains, IPs, files), and CVE reports. Each stream produces structured STIX objects with relationships linking indicators to malware, observables, and vulnerability records.",
+  "description": "The Intel471 connector (deprecated — use Intel471 V2) ingests STIX 2.1 objects from Intel 471's Titan cybercrime intelligence platform into OpenCTI. It runs four configurable streams: malware indicators, YARA rules, IOCs (URLs, domains, IPs, files), and CVE reports. Each stream produces structured STIX objects with relationships linking indicators to malware, observables, and vulnerability records.",
   "short_description": "Deprecated Intel471 connector that imports malware indicators, YARA rules, IOCs, and CVE reports from the Intel 471 Titan platform into OpenCTI. Use Intel471 V2 instead.",
   "logo": "external-import/intel471/__metadata__/logo.png",
   "use_cases": [
@@ -20,7 +20,7 @@
   "subscription_link": null,
   "source_code": "https://github.com/OpenCTI-Platform/connectors/tree/master/external-import/intel471",
   "manager_supported": false,
-  "container_version": "rolling",
+  "container_version": "7.260813.0",
   "container_image": "opencti/connector-intel471",
   "container_type": "EXTERNAL_IMPORT"
 }
