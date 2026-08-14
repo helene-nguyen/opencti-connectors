@@ -4,8 +4,13 @@
   "description": "Import DomainTools Feeds",
   "short_description": "Import DomainTools Feeds",
   "logo": "external-import/domaintools-feeds/__metadata__/logo.png",
-  "use_cases": ["Infrastructure & Attack Surface Visibility", "Detection & Response Enablement"],
-  "solution_categories": ["Threat Intelligence Feed"],
+  "use_cases": [
+    "Infrastructure & Attack Surface Visibility",
+    "Detection & Response Enablement"
+  ],
+  "solution_categories": [
+    "Threat Intelligence Feed"
+  ],
   "contact": null,
   "license_type": null,
   "verified": false,
@@ -16,7 +21,7 @@
   "subscription_link": null,
   "source_code": "https://github.com/OpenCTI-Platform/connectors/tree/master/external-import/domaintools-feeds",
   "manager_supported": false,
-  "container_version": "rolling",
+  "container_version": "7.260814.5",
   "container_image": "opencti/connector-domaintools-feeds",
   "container_type": "EXTERNAL_IMPORT"
 }
