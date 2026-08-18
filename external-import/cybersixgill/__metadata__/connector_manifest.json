@@ -1,7 +1,7 @@
 {
   "title": "Cybersixgill",
   "slug": "cybersixgill",
-  "description": "The Darkfeed is a unique feed of IOCs which are automatically extracted from Cybersixgill\u2019s comprehensive collection of underground web sources.",
+  "description": "The Darkfeed is a unique feed of IOCs which are automatically extracted from Cybersixgill’s comprehensive collection of underground web sources.",
   "short_description": "Imports IOCs automatically extracted from Cybersixgill's underground web sources (Darkfeed) into OpenCTI, covering adversary campaigns and dark web threat intelligence.",
   "logo": "external-import/cybersixgill/__metadata__/logo.png",
   "use_cases": [
@@ -20,7 +20,7 @@
   "subscription_link": null,
   "source_code": "https://github.com/OpenCTI-Platform/connectors/tree/master/external-import/cybersixgill",
   "manager_supported": false,
-  "container_version": "rolling",
+  "container_version": "7.260818.0",
   "container_image": "opencti/connector-cybersixgill",
   "container_type": "EXTERNAL_IMPORT"
 }
