@@ -81,6 +81,7 @@ jobs:
         if: inputs.push
         uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
         with:
+          registry: registry.lab.xtm-integrations.dev.filigran.io
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
