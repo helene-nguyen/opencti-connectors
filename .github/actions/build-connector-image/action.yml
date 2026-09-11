@@ -278,8 +278,9 @@ runs:
           if [ -n "$TAGS" ]; then
             TAGS="${TAGS}"$'\n'
           fi
-          TAGS="${TAGS}${REPO}/connector-${CONNECTOR_NAME}:${tag}${TAG_SUFFIX}"$'\n'
-          TAGS="${TAGS}ghcr.io/opencti-platform/${REPO}/connector-${CONNECTOR_NAME}:${tag}${TAG_SUFFIX}"
+          # TAGS="${TAGS}${REPO}/connector-${CONNECTOR_NAME}:${tag}${TAG_SUFFIX}"$'\n'
+          # TAGS="${TAGS}ghcr.io/opencti-platform/${REPO}/connector-${CONNECTOR_NAME}:${tag}${TAG_SUFFIX}"$'\n'
+          TAGS="${TAGS}registry.lab.xtm-integrations.dev.filigran.io/${REPO}/connector-${CONNECTOR_NAME}:${tag}${TAG_SUFFIX}"
         done
 
         {
