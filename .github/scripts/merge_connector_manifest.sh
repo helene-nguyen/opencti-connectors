@@ -25,8 +25,8 @@ echo "🔗 Merging $CONNECTOR_NAME"
 echo "  amd64: $AMD64_DIGEST"
 echo "  arm64: $ARM64_DIGEST"
 
-DH_IMAGE="${REPO}/connector-${CONNECTOR_NAME}"
-GHCR_IMAGE="ghcr.io/opencti-platform/${REPO}/connector-${CONNECTOR_NAME}"
+DH_IMAGE="registry.lab.xtm-integrations.dev.filigran.io/${REPO}/connector-${CONNECTOR_NAME}"
+#GHCR_IMAGE="ghcr.io/opencti-platform/${REPO}/connector-${CONNECTOR_NAME}"
 
 IFS=',' read -ra TAG_ARRAY <<< "$IMAGE_TAGS"
 for tag in "${TAG_ARRAY[@]}"; do
