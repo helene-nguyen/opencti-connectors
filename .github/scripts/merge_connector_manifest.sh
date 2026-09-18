@@ -36,8 +36,8 @@ for tag in "${TAG_ARRAY[@]}"; do
     "${DH_IMAGE}@${AMD64_DIGEST}" \
     "${DH_IMAGE}@${ARM64_DIGEST}"
 
-  docker buildx imagetools create $DRY_RUN_FLAG -t "${GHCR_IMAGE}:${tag}" \
-    "${GHCR_IMAGE}@${AMD64_DIGEST}" \
-    "${GHCR_IMAGE}@${ARM64_DIGEST}"
+#  docker buildx imagetools create $DRY_RUN_FLAG -t "${GHCR_IMAGE}:${tag}" \
+#    "${GHCR_IMAGE}@${AMD64_DIGEST}" \
+#    "${GHCR_IMAGE}@${ARM64_DIGEST}"
 done
 echo "✅ Merged $CONNECTOR_NAME"
